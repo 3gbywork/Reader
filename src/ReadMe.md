@@ -1,5 +1,7 @@
 ## 项目结构
 
+* Reader.Model				数据模型
+
 * Reader.Repository			本地数据仓库
 
 * Reader.Source				书源抽象层

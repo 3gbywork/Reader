@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Reader.Source
 {
-    public class Class1
+    interface IBook
     {
     }
 }
