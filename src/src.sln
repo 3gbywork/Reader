@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReadMe.md = ReadMe.md
 		书源API.xlsx = 书源API.xlsx
 		结构图.png = 结构图.png
+		追书神器API.svg = 追书神器API.svg
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader.Source.Stoneread", "Reader.Source.Stoneread\Reader.Source.Stoneread.csproj", "{4BA8B69F-7067-456A-9174-D0778EE128B0}"
@@ -19,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader.Repository", "Reader.Repository\Reader.Repository.csproj", "{58A1DC63-E4FC-44B0-BA7B-23A774D45825}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader.Model", "Reader.Model\Reader.Model.csproj", "{4133F7C8-3071-4370-8E10-64CD5982E777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader.Source.Zhuishushenqi", "Reader.Source.Zhuishushenqi\Reader.Source.Zhuishushenqi.csproj", "{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +49,10 @@ Global
 		{4133F7C8-3071-4370-8E10-64CD5982E777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4133F7C8-3071-4370-8E10-64CD5982E777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4133F7C8-3071-4370-8E10-64CD5982E777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
