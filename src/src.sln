@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C57D09DF-AA90-4AFD-A495-DB29EF1489D3}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.md = ReadMe.md
+		书源API.xlsx = 书源API.xlsx
 		结构图.png = 结构图.png
 	EndProjectSection
 EndProject
