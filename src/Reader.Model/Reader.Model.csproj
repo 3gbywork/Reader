@@ -45,8 +45,13 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="Chapter.cs" />
-    <Compile Include="Responses\Base.cs" />
-    <Compile Include="Responses\Categories.cs" />
+    <Compile Include="Types\Base.cs" />
+    <Compile Include="Types\BookBase.cs" />
+    <Compile Include="Types\BookDetails.cs" />
+    <Compile Include="Types\Categories.cs" />
+    <Compile Include="Types\Rating.cs" />
+    <Compile Include="Types\Subcategories.cs" />
+    <Compile Include="Types\BookBrief.cs" />
     <Compile Include="Types\Category.cs" />
     <Compile Include="Types\Subcategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

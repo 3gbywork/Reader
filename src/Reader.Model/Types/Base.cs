@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Reader.Model.Responses
+namespace Reader.Model.Types
 {
     public class Base
     {
