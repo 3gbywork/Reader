@@ -142,7 +142,7 @@ namespace Reader.Model.Types
         public Int32 SerializeWordCount { get; set; }
 
         [JsonProperty("updated")]
-        public String Updated { get; set; }
+        public DateTime Updated { get; set; }
 
         [JsonProperty("isSerial")]
         public Boolean IsSerial { get; set; }
@@ -182,5 +182,17 @@ namespace Reader.Model.Types
         /// </summary>
         [JsonProperty("discount")]
         public String Discount { get; set; }
+    }
+
+    public class Rating
+    {
+        [JsonProperty("count")]
+        public Int32 Count { get; set; }
+
+        [JsonProperty("score")]
+        public Single Score { get; set; }
+
+        [JsonProperty("isEffect")]
+        public Boolean IsEffect { get; set; }
     }
 }

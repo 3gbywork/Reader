@@ -43,13 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="Chapter.cs" />
     <Compile Include="Types\Base.cs" />
+    <Compile Include="Types\BaseList.cs" />
     <Compile Include="Types\BookBase.cs" />
     <Compile Include="Types\BookDetails.cs" />
+    <Compile Include="Types\BookSearch.cs" />
+    <Compile Include="Types\BookSource.cs" />
+    <Compile Include="Types\BooksSearch.cs" />
     <Compile Include="Types\Categories.cs" />
-    <Compile Include="Types\Rating.cs" />
+    <Compile Include="Types\Chapter.cs" />
+    <Compile Include="Types\ChapterContent.cs" />
+    <Compile Include="Types\ChapterDetails.cs" />
+    <Compile Include="Types\ChapterEx.cs" />
+    <Compile Include="Types\ChapterSummary.cs" />
+    <Compile Include="Types\ChapterSummaryEx.cs" />
+    <Compile Include="Types\RankingGender.cs" />
     <Compile Include="Types\Subcategories.cs" />
     <Compile Include="Types\BookBrief.cs" />
     <Compile Include="Types\Category.cs" />
