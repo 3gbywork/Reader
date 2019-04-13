@@ -57,7 +57,11 @@
     <Compile Include="Types\ChapterEx.cs" />
     <Compile Include="Types\ChapterSummary.cs" />
     <Compile Include="Types\ChapterSummaryEx.cs" />
+    <Compile Include="Types\KeyWords.cs" />
+    <Compile Include="Types\LastChapterInfo.cs" />
+    <Compile Include="Types\RankingBooks.cs" />
     <Compile Include="Types\RankingGender.cs" />
+    <Compile Include="Types\SearchHotWords.cs" />
     <Compile Include="Types\Subcategories.cs" />
     <Compile Include="Types\BookBrief.cs" />
     <Compile Include="Types\Category.cs" />

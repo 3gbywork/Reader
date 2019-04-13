@@ -36,10 +36,19 @@ namespace Reader.Model.Types
         ////    ]
         //}
 
-        [JsonProperty("site")]
-        public String Site { get; set; }
+        [JsonProperty("sizetype")]
+        public Int32 SizeType { get; set; }
 
-        [JsonProperty("shortIntro")]
-        public String ShortIntro { get; set; }
+        [JsonProperty("superscript")]
+        public String SuperScript { get; set; }
+
+        [JsonProperty("contentType")]
+        public String ContentType { get; set; }
+
+        [JsonProperty("lastChapter")]
+        public String LastChapter { get; set; }
+
+        [JsonProperty("tags")]
+        public IList<String> Tags { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Reader.Model.Types
 {
-    public class BookDetails : BookBase
+    public class BookDetails : BookBrief
     {
         //{
         ////    "_id": "59ba0dbb017336e411085a4e",
@@ -76,7 +76,7 @@ namespace Reader.Model.Types
         //}
 
         [JsonProperty("longIntro")]
-        public String LongIntro { get; set; }
+        public new String Intro { get; set; }
 
         [JsonProperty("minorCateV2")]
         public String MinorCateV2 { get; set; }
