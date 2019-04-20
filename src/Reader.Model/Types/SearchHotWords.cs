@@ -6,18 +6,18 @@ using System.Text;
 
 namespace Reader.Model.Types
 {
-    public class SearchHotWords : Base
+    public class SearchHotwords : Base
     {
         [JsonProperty("searchHotWords")]
-        public HotWords HotWords { get; set; }
+        public Hotwords HotWords { get; set; }
     }
 
-    public class HotWords : BaseList<HotWord>
+    public class Hotwords : BaseList<Hotword>
     {
 
     }
 
-    public class HotWord
+    public class Hotword
     {
         public String Word { get; set; }
         public Int32 Times { get; set; }

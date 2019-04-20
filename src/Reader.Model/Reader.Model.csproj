@@ -47,6 +47,7 @@
     <Compile Include="Types\BaseList.cs" />
     <Compile Include="Types\BookBase.cs" />
     <Compile Include="Types\BookDetails.cs" />
+    <Compile Include="Types\BooksBrief.cs" />
     <Compile Include="Types\BookSearch.cs" />
     <Compile Include="Types\BookSource.cs" />
     <Compile Include="Types\BooksSearch.cs" />
@@ -57,11 +58,11 @@
     <Compile Include="Types\ChapterEx.cs" />
     <Compile Include="Types\ChapterSummary.cs" />
     <Compile Include="Types\ChapterSummaryEx.cs" />
-    <Compile Include="Types\KeyWords.cs" />
+    <Compile Include="Types\AutoComplete.cs" />
     <Compile Include="Types\LastChapterInfo.cs" />
     <Compile Include="Types\RankingBooks.cs" />
     <Compile Include="Types\RankingGender.cs" />
-    <Compile Include="Types\SearchHotWords.cs" />
+    <Compile Include="Types\SearchHotwords.cs" />
     <Compile Include="Types\Subcategories.cs" />
     <Compile Include="Types\BookBrief.cs" />
     <Compile Include="Types\Category.cs" />
