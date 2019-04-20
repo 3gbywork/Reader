@@ -1,14 +1,14 @@
 ﻿using Reader.Model.Types;
+using System;
 using System.Threading.Tasks;
 
 namespace Reader.Source.Services
 {
     /// <summary>
-    /// 分类
-    /// 男生/女生/漫画/出版
+    /// 自动完成
     /// </summary>
-    public interface ICategoryService
+    public interface IAutoCompleteService
     {
-        Task<Categories> GetCategoriesAsync();
+        Task<AutoComplete> GetAutoCompleteAsync(String keyword);
     }
 }

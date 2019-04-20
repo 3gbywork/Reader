@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Reader.Model.Types;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace Reader.Source.services
+namespace Reader.Source.Services
 {
-    interface ISubcategoryService
+    /// <summary>
+    /// 子分类
+    /// 分类下子分类
+    /// </summary>
+    public interface ISubcategoryService
     {
+        Task<Subcategories> GetSubcategoriesAsync();
     }
 }

@@ -1,14 +1,14 @@
 ﻿using Reader.Model.Types;
+using System;
 using System.Threading.Tasks;
 
 namespace Reader.Source.Services
 {
     /// <summary>
-    /// 分类
-    /// 男生/女生/漫画/出版
+    /// 书源
     /// </summary>
-    public interface ICategoryService
+    public interface IBookSourceService
     {
-        Task<Categories> GetCategoriesAsync();
+        Task<BookSources> GetBookSourcesAsync(String bookID);
     }
 }
