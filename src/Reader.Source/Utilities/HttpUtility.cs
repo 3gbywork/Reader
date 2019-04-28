@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace Reader.Source.Utilities
 {
-    public static class HttpUtility
+    public class HttpUtility
     {
-        private static IApiClient client;
+        private IApiClient client;
 
-        static HttpUtility()
+        public HttpUtility(IApiClient apiClient)
         {
-            client = new ApiClient.ApiClient();
+            client = apiClient;
         }
 
-        public static Task<T> GetAsync<T>(String requestUri)
+        public Task<T> GetAsync<T>(String requestUri)
         {
             return client.GetAsync<T>(requestUri);
         }
 
-        public static Task<T> GetAsync<T>(String requestUri, IDictionary<String, String> args)
+        public Task<T> GetAsync<T>(String requestUri, IDictionary<String, String> args)
         {
             return client.GetAsync<T>(requestUri, args);
         }

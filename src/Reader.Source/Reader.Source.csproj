@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient\IApiClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IAutoCompleteService.cs" />
     <Compile Include="Services\IBookService.cs" />
@@ -94,10 +95,6 @@
     <ProjectReference Include="..\Reader.Model\Reader.Model.csproj">
       <Project>{4133F7C8-3071-4370-8E10-64CD5982E777}</Project>
       <Name>Reader.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Reader.Source.ApiClient\Reader.Source.ApiClient.csproj">
-      <Project>{B39D3440-2142-45A4-9696-3BFB16279182}</Project>
-      <Name>Reader.Source.ApiClient</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
