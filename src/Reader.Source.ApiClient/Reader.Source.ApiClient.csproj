@@ -76,13 +76,17 @@
   <ItemGroup>
     <Compile Include="ApiClient.cs" />
     <Compile Include="Http\HttpClient.cs" />
-    <Compile Include="IApiClient.cs" />
     <Compile Include="Http\IHttp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serialization\ISerializer.cs" />
     <Compile Include="Serialization\JsonSerializer.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Reader.Source\Reader.Source.csproj">
+      <Project>{1ee955d6-e7bb-48d9-9822-51ce3ba8a34a}</Project>
+      <Name>Reader.Source</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
