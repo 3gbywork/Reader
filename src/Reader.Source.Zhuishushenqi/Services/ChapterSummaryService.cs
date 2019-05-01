@@ -1,10 +1,7 @@
 ﻿using Reader.Model.Types;
 using Reader.Source.Services;
-using Reader.Source.Utilities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Reader.Source.Zhuishushenqi.Services
@@ -17,7 +14,7 @@ namespace Reader.Source.Zhuishushenqi.Services
             {
                 {"view", "chapters" }
             };
-            return HttpUtility.GetAsync<ChapterSummary>($"{Constant.Chapter}/{bookID}", args);
+            return DefaultHttpUtility.GetAsync<ChapterSummary>($"{Constant.Chapter}/{bookID}", args);
         }
     }
 }

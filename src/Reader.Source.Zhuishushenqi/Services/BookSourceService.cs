@@ -1,10 +1,7 @@
 ﻿using Reader.Model.Types;
 using Reader.Source.Services;
-using Reader.Source.Utilities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Reader.Source.Zhuishushenqi.Services
@@ -18,7 +15,7 @@ namespace Reader.Source.Zhuishushenqi.Services
                 {"view", "summary" },
                 {"book", bookID }
             };
-            return HttpUtility.GetAsync<BookSources>(Constant.BookSourceA, args);
+            return DefaultHttpUtility.GetAsync<BookSources>(Constant.BookSourceA, args);
         }
     }
 }
