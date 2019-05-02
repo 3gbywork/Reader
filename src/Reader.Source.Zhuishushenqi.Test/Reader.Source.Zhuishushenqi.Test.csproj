@@ -40,6 +40,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global\ApiClient.cs" />
     <Compile Include="Services\AutoCompleteServiceTests.cs" />
     <Compile Include="Services\BookSourceServiceTests.cs" />
     <Compile Include="Services\BooksServiceTests.cs" />
@@ -62,9 +63,17 @@
       <Project>{4133F7C8-3071-4370-8E10-64CD5982E777}</Project>
       <Name>Reader.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Reader.Source.ApiClient\Reader.Source.ApiClient.csproj">
+      <Project>{b39d3440-2142-45a4-9696-3bfb16279182}</Project>
+      <Name>Reader.Source.ApiClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Reader.Source.Zhuishushenqi\Reader.Source.Zhuishushenqi.csproj">
       <Project>{CC91EEF1-10D4-46DA-A5E7-67FCD32757EB}</Project>
       <Name>Reader.Source.Zhuishushenqi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reader.Source\Reader.Source.csproj">
+      <Project>{1EE955D6-E7BB-48D9-9822-51CE3BA8A34A}</Project>
+      <Name>Reader.Source</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
