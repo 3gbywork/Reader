@@ -56,9 +56,6 @@
     <Compile Include="Services\SubcategoryServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Reader.Model\Reader.Model.csproj">
       <Project>{4133F7C8-3071-4370-8E10-64CD5982E777}</Project>
       <Name>Reader.Model</Name>
@@ -75,6 +72,9 @@
       <Project>{1EE955D6-E7BB-48D9-9822-51CE3BA8A34A}</Project>
       <Name>Reader.Source</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
