@@ -1,6 +1,7 @@
-﻿using Reader.Model.Types;
-using Reader.Source.Zhuishushenqi.Services;
+﻿using CommonUtility.Command;
+using System;
 using System.Windows;
+using System.Windows.Input;
 
 namespace Reader.UI.WPF
 {
@@ -13,16 +14,17 @@ namespace Reader.UI.WPF
         {
             InitializeComponent();
 
-            this.Loaded += MainWindow_Loaded;
+            MenuItemCommand = new RelayCommand<string>((param) =>
+            {
+                if ("category" == param)
+                    this.mainFrame.Navigate(new Uri("/Views/CategoryPage.xaml", UriKind.Relative));
+                else if ("ranking" == param)
+                    this.mainFrame.Navigate(new Uri(""));
+            });
+
+            this.DataContext = this;
         }
 
-        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            var service = new CategoryService();
-            Categories categories = await service.GetCategoriesAsync();
-
-            if (!categories.OK)
-                return;
-        }
+        public ICommand MenuItemCommand { get; set; }
     }
 }
